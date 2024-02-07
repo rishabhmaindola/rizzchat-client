@@ -18,7 +18,7 @@ import Music from "./Components/Music";
 import { FaMusic } from "react-icons/fa";
 import SoundPanel from "./Components/SoundPanel";
 
-const socket = io("http://localhost:5000", {
+const socket = io("https://rizzchat-server.vercel.app", {
   transports: ["websocket"],
 });
 
