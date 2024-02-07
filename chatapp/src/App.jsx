@@ -19,8 +19,8 @@ import { FaMusic } from "react-icons/fa";
 import SoundPanel from "./Components/SoundPanel";
 
 const socket = io("https://rizzchat-server-rishabhmaindolas-projects.vercel.app/", {
-  transports: ["websocket"],
 });
+  // transports: ["websocket"],
 
 const App = () => {
   const lastDiv = useRef(null);
