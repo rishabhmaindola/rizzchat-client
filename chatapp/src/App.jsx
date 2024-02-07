@@ -18,7 +18,7 @@ import Music from "./Components/Music";
 import { FaMusic } from "react-icons/fa";
 import SoundPanel from "./Components/SoundPanel";
 
-const socket = io("wss://rizzchat-server-rishabhmaindolas-projects.vercel.app/", {
+const socket = io("wss://rizzchat-server-rishabhmaindolas-projects.vercel.app", {
   transports: ["websocket"],
 });
 
