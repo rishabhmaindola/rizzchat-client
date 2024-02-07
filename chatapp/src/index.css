@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Salsa", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.bg-image {
+    background-image: url(./assets/bg.webp);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background-color: aqua;
+}

@@ -1,0 +1,64 @@
+#waveform {
+  width: 100%;
+  max-width: 100%;
+  height: 50%;
+  max-height: 50%;
+}
+
+
+.music-container {
+  width: 250px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.controls {
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container {
+  padding: 0px;
+}
+
+.controls button {
+  margin: 1px;
+  padding: 10px;
+  width: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.controls button:hover {
+  background-color: #ececec;
+}
+
+.audio-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  color: red;
+  border-radius: 4px;
+  padding: 8px 5px;
+  font-size: 10px;
+}
+
+.music-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.music-button:hover {
+  background-color: #0056b3;
+}
