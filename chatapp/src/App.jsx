@@ -18,7 +18,12 @@ import Music from "./Components/Music";
 import { FaMusic } from "react-icons/fa";
 import SoundPanel from "./Components/SoundPanel";
 
-const socket = io("https://rizzchat-server.vercel.app/socket.io", {
+const serverAddress = "wss://rizzchat-server.glitch.me/";
+
+const socket = io(serverAddress, {
+  extraHeaders: {
+    "user-agent": "Google Chrome"
+  },
   transports: ["websocket"],
 });
 
