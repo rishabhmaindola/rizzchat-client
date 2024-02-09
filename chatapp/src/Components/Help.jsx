@@ -22,14 +22,14 @@ const Help = () => {
       {viewHelp && (
         <div className="flex flex-col w-full gap-5 h-full p-4 rounded-md bg-white">
         <p className="text-xs">
-        This is the Beta Version.
+        This is the Beta Version. For best use, open the interface on a Laptop or Desktop. The idea is to showcase yourself anonymously.
         </p>
         <p className="text-xs">
         Below mentioned are some of the features of this application.<br/>
         </p>
         <ul className="text-xs">
             <li>1. No login required.</li>
-            <li>2. You can send Emoji's, Voice notes</li>
+            <li>2. You can send Emoji's.</li>
             <li>3. Toggle music Play & Mute</li>
             {/* <li>4. Text to Speech messaging is also included. </li>
             <li>5. The joined users will bw refreshed after every one hour.</li>
@@ -37,7 +37,7 @@ const Help = () => {
         </ul>
         <p className="text-xs">
         Follow our Instagram Page for Visual Instructions and Updates.<br/>
-        Insta link
+       <a href="https://www.instagram.com/rizzchat.io/" target="_blank" rel="noreferrer noopener">Instagram</a>
         </p>
         </div>
       )}
